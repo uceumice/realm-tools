@@ -45,7 +45,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@realm-fun/fun": "workspace:*",
+    "@realm-fun/types": "workspace:*",
     "lodash": "^4.17.21"
   }
 }
