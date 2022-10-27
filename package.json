@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/realm-fun/fun"
+    "url": "https://github.com/realm-functions"
   },
   "keywords": [
     "realm",
@@ -31,9 +31,9 @@
     "serverless"
   ],
   "bugs": {
-    "url": "https://github.com/realm-fun/fun/issues"
+    "url": "https://github.com/realm-functions/issues"
   },
-  "homepage": "https://github.com/realm-fun/fun#readme",
+  "homepage": "https://github.com/realm-functions#readme",
   "devDependencies": {
     "@types/jest": "^28.1.6",
     "@types/lodash": "^4.14.185",
@@ -45,7 +45,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@realm-fun/types": "workspace:fun@*",
+    "@realm-fun/fun": "workspace:*",
     "lodash": "^4.17.21"
   }
 }
