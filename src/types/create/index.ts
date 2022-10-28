@@ -1,9 +1,9 @@
 import type { EJSON, RuleExpression } from "@realm-fun/types"
 
-export type AccurateReturn<Res extends EJSON> =
+export type AccurateReturn<Res extends EJSON | null> =
   | {
     success: true;
-    result: Res | null;
+    result: Res;
   }
   | {
     success: false;
@@ -26,12 +26,6 @@ export interface Configuration<
 }
 
 export type Func<
-  Args extends unknown[],
+  Args extends EJSON[],
   Rtrn extends EJSON | void
 > = (args: Args) => Promise<Rtrn>;
-
-export type FuncArgs<
-  Args extends unknown[] | unknown
-> = {
-  args: Args;
-};
