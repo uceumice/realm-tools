@@ -3,12 +3,11 @@
         "target": "es5",
         "module": "commonjs",
         "declaration": true,
-        "outDir": "./lib",
+        "outDir": "out",
         "strict": true
     },
-    // TODO #5 Add derictory aliases to 'tsconfig.json' for better readability
     "include": [
-        "src"
+        "src/**/*.ts"
     ],
     "exclude": [
         "node_modules",

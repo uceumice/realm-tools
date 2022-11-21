@@ -1,4 +1,4 @@
-import type { EJSON, RuleExpression } from "@realm-fun/types"
+import type { EJSON, RuleExpression } from "@realm.w/types"
 
 export type AccurateReturn<Res extends EJSON | null> =
   | {

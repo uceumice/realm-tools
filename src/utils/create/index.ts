@@ -1,4 +1,4 @@
-import { EJSON, RealmFunction } from '@realm-fun/types';
+import { EJSON, RealmFunction } from '@realm.w/types';
 import { isFunction, isUndefined } from 'lodash';
 import {
   Configuration,
@@ -29,7 +29,7 @@ export const crf = <
   );
 
   // [2] create returned realm function
-  return async (args: Args) => {
+  return async (...args: Args) => {
     // [1] catch all errors
     try {
       // [1] validate function arguments
